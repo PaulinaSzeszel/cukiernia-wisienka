@@ -23,12 +23,55 @@
     />
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Cukiernia Wisienka</title>
   </head>
   <body>
     <!--==================== HEADER & NAV ====================-->
-    <header class="header" id="header"></header>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="/index.html" class="nav__logo">
+          <img src="assets/img/logo.svg" alt="Logo Wisienka" />
+          <span>Wisienka</span>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link">Strona główna</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav__link">O Nas</a>
+            </li>
+
+            <li>
+              <a href="#product" class="nav__link">Produkty</a>
+            </li>
+
+            <li>
+              <a href="#new" class="nav__link">Nowości</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__link">Kontakt</a>
+            </li>
+          </ul>
+
+          <!-- Close -->
+           <button class="nav__close" id="nav-close" aria-label="Close menu">
+            <i class="ri-close-large-line"></i>
+           </button>
+
+           <img src="assets/img/leaf-3.png" alt="" class="nav__img">
+        </div>
+
+        <!-- Toggle -->
+        <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+          <i class="ri-apps-2-line"></i>
+        </button>
+
+      </nav>
+    </header>
 
     <!--==================== MAIN ====================-->
     <main class="main">
