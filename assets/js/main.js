@@ -46,7 +46,7 @@ const swiperHome = new Swiper('.home__swiper', {
     },
   },
   autoplay: {
-    delay: 1500,
+    delay: 1200,
     disableOnInteraction: false,
   },
 });
